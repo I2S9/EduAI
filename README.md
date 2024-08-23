@@ -9,3 +9,10 @@
 - [ ] Implement an advanced search and recommendation system that allows users to query and receive personalized professor recommendations based on input criteria.
 
 - [ ] Integrate sentiment analysis and trend tracking to provide insights into changes in professor ratings and review sentiments over time.
+
+## Get Started 📚
+
+        ```
+        npm install next react react-dom
+        npm run dev
+        ```
