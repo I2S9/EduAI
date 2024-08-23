@@ -12,7 +12,5 @@
 
 ## Get Started 📚
 
-        ```
         npm install next react react-dom
         npm run dev
-        ```
