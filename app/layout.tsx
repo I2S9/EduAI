@@ -4,13 +4,14 @@ import "./globals.css";
 import { ThemeProvider } from "./components/dashboard/ThemeProvider";
 import { Toaster } from "@/components/ui/sonner";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+const montserratBold = localFont({
+  src: "./fonts/Montserrat-Bold.ttf",
+  variable: "--font-montserrat-bold",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+
+const montserratMedium = localFont({
+  src: "./fonts/Montserrat-Medium.ttf",
+  variable: "--font-montserrat-medium",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.className} ${geistMono.className}`}>
+      <body className={`${montserratBold.className} ${montserratMedium.className}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
