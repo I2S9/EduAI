@@ -44,13 +44,14 @@ export function Hero() {
               Transform Your Academic Experience with EduAI!
             </span>
 
-            <h1 className="mt-8 text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-medium leading-none">
+            {/* Mise à jour du style pour appliquer Montserrat Bold */}
+            <h1 className="mt-8 text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-none">
               The Future of <span className="text-black">Professor Rating</span>
               <span className="text-primary ml-1"> is Here!</span>
             </h1>
 
             <p className="max-w-xl mx-auto mt-4 text-base font-light lg:text-lg text-muted-foreground tracking-tighter">
-            Navigating the academic world can be complex, but with EduAI, finding the ideal professor is easy. 
+              Navigating the academic world can be complex, but with EduAI, finding the ideal professor is easy.
             </p>
             <div className="flex items-center gap-x-5 w-full justify-center mt-5 ">
               <LoginLink>
